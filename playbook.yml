@@ -5,4 +5,4 @@
   tasks:
     - name: Prerequisite installations
       script: 
-        cmd: /home/ec2-user/assessment/scripts.sh
+        cmd: ./scripts.sh
