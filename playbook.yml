@@ -1,0 +1,6 @@
+- name: Playbook for Releasing App on MediaWiki Servers
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Prerequisite installations
+      script: scripts.sh
